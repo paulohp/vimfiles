@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue'
+let g:netrw_dirhist_2='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue/jobs'
+let g:netrw_dirhist_3='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue'
+let g:netrw_dirhist_4='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue/jobs'
+let g:netrw_dirhist_5='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue'
+let g:netrw_dirhist_6='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue/jobs'
+let g:netrw_dirhist_7='/Users/tagon8/.vim'
+let g:netrw_dirhist_8='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue'
+let g:netrw_dirhist_9='/Users/tagon8/Workspaces/Tagon8/touchdown/touchdown-kue/jobs'

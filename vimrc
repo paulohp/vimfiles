@@ -1,6 +1,6 @@
 " Must come first because it changes other options.
 set nocompatible
-
+set noswapfile
 
 " Vundle setup
 filetype off " required by Vundle 
@@ -35,6 +35,7 @@ Bundle 'michalliu/jsoncodecs.vim'
 Bundle 'michalliu/sourcebeautify.vim'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'teranex/jk-jumps.vim'
+Bundle 'mattn/emmet-vim'
 
 filetype plugin indent on " required by Vundle 
 
@@ -98,9 +99,9 @@ set nowritebackup
 set directory=$HOME/.vim/tmp//,.
 
 " Global tab width.
-set tabstop=4
+set tabstop=2
 " And again, related.
-set shiftwidth=4
+set shiftwidth=2
 " Specific shiftwidth for ruby files
 autocmd FileType ruby set shiftwidth=2
 " But not for erb files...
