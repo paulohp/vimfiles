@@ -1,7 +1,7 @@
-pedrofranceschi's vimfiles
+paulopires's vimfiles
 ========
 
-These are my vimfiles. I created them almost from scratch when I started using Vim and adapted them to my needs.
+These are my vimfiles. based on @pedrofranceschi
 
 #### What's included
 
@@ -29,6 +29,7 @@ These are my vimfiles. I created them almost from scratch when I started using V
 * [sourcebeautify](https://github.com/michalliu/sourcebeautify.vim)
 * [golang](https://github.com/jnwhiteh/vim-golang)
 * [jk-jumps](https://github.com/teranex/jk-jumps.vim)
+* [vim-emmet](https://github.com/mattn/emmet-vim)
 
 #### Installing (step by step)
 
@@ -39,7 +40,7 @@ Go to your home directory:
 Clone my vimfiles repo:
 
 
-    git clone --recursive https://github.com/pedrofranceschi/vimfiles.git
+    git clone --recursive https://github.com/paulohp/vimfiles.git
 
 Rename the repo to .vim in your home directory:
 
