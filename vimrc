@@ -66,6 +66,10 @@ set wildmenu
 " Complete files like a shell.
 set wildmode=list:longest
 
+set number
+" Indentation, textwidth and colorcolumn
+set autoindent smartindent
+
 " Case-insensitive searching.
 set ignorecase
 " But case-sensitive if expression contains a capital letter.
@@ -114,6 +118,26 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 
 " Leader = ,
 let mapleader = ","
+
+" Gui 
+set guioptions=
+
+" Look good
+if has("unix")
+	let s:uname = system("echo -n \"$(uname)\"")
+		if !v:shell_error && s:uname == "Linux"
+			set t_Co=256
+			if $TERM =~ '256color'
+									      " Disable Background Color Erase (BCE) so that color
+												" schemes work
+												"       " properly when Vim is used inside tmux and
+												"       GNU screen.  See also
+												"             "
+												"             http://snk.tuxfamily.org/log/vim-256color-bce.html
+				set t_ut=
+			endif
+		endif
+endif
 
 " Tab mappings.
 nnoremap <leader>t :tabnew<cr>
