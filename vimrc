@@ -106,6 +106,7 @@ set directory=$HOME/.vim/tmp//,.
 set tabstop=2
 " And again, related.
 set shiftwidth=2
+:set expandtab
 " Specific shiftwidth for ruby files
 autocmd FileType ruby set shiftwidth=2
 " But not for erb files...
@@ -121,7 +122,7 @@ let mapleader = ","
 
 " Gui 
 set guioptions=
-
+set guifont=Monaco:h12
 " Look good
 if has("unix")
 	let s:uname = system("echo -n \"$(uname)\"")
