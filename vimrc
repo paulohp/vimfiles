@@ -36,7 +36,12 @@ Bundle 'michalliu/sourcebeautify.vim'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'teranex/jk-jumps.vim'
 Bundle 'mattn/emmet-vim'
-Bundle 'ftdetect/stylus.vim'
+Bundle 'wavded/vim-stylus'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neosnippet'
+
 filetype plugin indent on " required by Vundle 
 
 
@@ -101,7 +106,8 @@ set nobackup
 set nowritebackup
 " Keep swap files in one location
 set directory=$HOME/.vim/tmp//,.
-
+set cursorline
+set cursorcolumn
 " Global tab width.
 set tabstop=2
 " And again, related.
