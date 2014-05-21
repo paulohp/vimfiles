@@ -35,7 +35,7 @@ Bundle 'michalliu/jsoncodecs.vim'
 Bundle 'michalliu/sourcebeautify.vim'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'teranex/jk-jumps.vim'
-Bundle 'mattn/emmet-vimi'
+Bundle 'mattn/emmet-vim'
 Bundle 'ftdetect/stylus.vim'
 filetype plugin indent on " required by Vundle 
 
