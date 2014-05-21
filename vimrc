@@ -35,8 +35,8 @@ Bundle 'michalliu/jsoncodecs.vim'
 Bundle 'michalliu/sourcebeautify.vim'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'teranex/jk-jumps.vim'
-Bundle 'mattn/emmet-vim'
-
+Bundle 'mattn/emmet-vimi'
+Bundle 'ftdetect/stylus.vim'
 filetype plugin indent on " required by Vundle 
 
 
@@ -112,6 +112,9 @@ autocmd FileType ruby set shiftwidth=2
 " But not for erb files...
 autocmd FileType eruby set shiftwidth=4
 
+" Stylus
+autocmd BufNewFile,BufRead *.styl set filetype=stylus
+
 " Show the status line all the time
 set laststatus=2
 " Useful status information at bottom of screen
@@ -123,23 +126,6 @@ let mapleader = ","
 " Gui 
 set guioptions=
 set guifont=Monaco:h12
-" Look good
-if has("unix")
-	let s:uname = system("echo -n \"$(uname)\"")
-		if !v:shell_error && s:uname == "Linux"
-			set t_Co=256
-			if $TERM =~ '256color'
-									      " Disable Background Color Erase (BCE) so that color
-												" schemes work
-												"       " properly when Vim is used inside tmux and
-												"       GNU screen.  See also
-												"             "
-												"             http://snk.tuxfamily.org/log/vim-256color-bce.html
-				set t_ut=
-			endif
-		endif
-endif
-
 " Tab mappings.
 nnoremap <leader>t :tabnew<cr>
 nnoremap <leader>e :tabedit
