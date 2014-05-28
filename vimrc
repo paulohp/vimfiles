@@ -41,7 +41,7 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
-
+Bundle 'zenorocha/dracula-theme'
 filetype plugin indent on " required by Vundle 
 
 
@@ -51,7 +51,7 @@ filetype plugin indent on " required by Vundle
 syntax on
 
 " Sets the colorscheme for terminal sessions too.
-colorscheme badwolf
+colorscheme dracula
 
 " Load the matchit plugin.
 runtime macros/matchit.vim
