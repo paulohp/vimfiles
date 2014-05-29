@@ -5,7 +5,7 @@ These are my vimfiles. based on @pedrofranceschi
 
 #### What's included
 
-* [Bad Wolf (colorscheme)](https://github.com/sjl/badwolf)
+* [Dracula (colorscheme)](https://github.com/zenorocha/dracula-theme)
 * [CtrlP](https://github.com/kien/ctrlp.vim)
 * [vim-objc](https://github.com/b4winckler/vim-objc)
 * [airline](https://github.com/bling/vim-airline)
