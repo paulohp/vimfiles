@@ -3,7 +3,7 @@ set nocompatible
 set noswapfile
 
 " Vundle setup
-filetype off " required by Vundle 
+filetype off " required by Vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -41,8 +41,8 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
-Bundle 'zenorocha/dracula-theme'
-filetype plugin indent on " required by Vundle 
+
+filetype plugin indent on " required by Vundle
 
 
 " Other configurations...
@@ -51,7 +51,7 @@ filetype plugin indent on " required by Vundle
 syntax on
 
 " Sets the colorscheme for terminal sessions too.
-colorscheme dracula
+colorscheme badwolf
 
 " Load the matchit plugin.
 runtime macros/matchit.vim
@@ -91,7 +91,7 @@ set incsearch
 set nohlsearch
 
 " Turn off line wrapping.
-set nowrap    
+set nowrap
 " Show 3 lines of context around the cursor.
 set scrolloff=3
 
@@ -129,7 +129,7 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 " Leader = ,
 let mapleader = ","
 
-" Gui 
+" Gui
 set guioptions=
 set guifont=Monaco:h12
 " Tab mappings.
