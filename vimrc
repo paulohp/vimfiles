@@ -9,6 +9,7 @@ call vundle#rc()
 
 " My bundles from GitHub
 Bundle 'sjl/badwolf'
+Bundle 'jade.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
 Bundle 'b4winckler/vim-objc'
@@ -128,7 +129,7 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 
 " Leader = ,
 let mapleader = ","
-
+set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
 " Gui
 set guioptions=
 set guifont=Monaco:h12
