@@ -8,6 +8,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " My bundles from GitHub
+Bundle 'chriskempson/tomorrow-theme'
 Bundle 'sjl/badwolf'
 Bundle 'jade.vim'
 Bundle 'kien/ctrlp.vim'
@@ -53,6 +54,11 @@ syntax on
 
 " Sets the colorscheme for terminal sessions too.
 colorscheme badwolf
+" Override colorscheme bg so they look properly under any decent terminal -
+" " it's more of a hack than anything else
+" "highlight Normal ctermbg=NONE
+set cursorline
+set cursorcolumn
 
 " Load the matchit plugin.
 runtime macros/matchit.vim
