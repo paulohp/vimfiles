@@ -51,7 +51,10 @@ filetype plugin indent on " required by Vundle
 
 " Enable syntax highlighting
 syntax on
-
+" syntax highlighting
+set background=dark     " you can use `dark` or `light` as your background
+" syntax on
+color mango
 " Sets the colorscheme for terminal sessions too.
 colorscheme badwolf
 " Override colorscheme bg so they look properly under any decent terminal -
