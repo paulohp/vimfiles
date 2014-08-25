@@ -13,7 +13,6 @@ Bundle 'sjl/badwolf'
 Bundle 'jade.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
-Bundle 'b4winckler/vim-objc'
 Bundle 'msanders/snipmate.vim'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'vim-scripts/YankRing.vim'
@@ -43,6 +42,7 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
+Bundle 'moll/vim-node'
 
 filetype plugin indent on " required by Vundle
 
@@ -127,6 +127,7 @@ autocmd FileType eruby set shiftwidth=4
 
 " Stylus
 autocmd BufNewFile,BufRead *.styl set filetype=stylus
+autocmd BufNewFile,BufRead *.jake set filetype=js
 
 " Show the status line all the time
 set laststatus=2
