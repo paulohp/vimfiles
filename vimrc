@@ -52,7 +52,7 @@ filetype plugin indent on " required by Vundle
 syntax on
 " syntax on
 " Sets the colorscheme for terminal sessions too.
-colorscheme badwolf
+colorscheme molokai
 " Override colorscheme bg so they look properly under any decent terminal -
 " " it's more of a hack than anything else
 " "highlight Normal ctermbg=NONE
