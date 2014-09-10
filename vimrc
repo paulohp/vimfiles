@@ -41,7 +41,6 @@ Bundle 'wavded/vim-stylus'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neosnippet'
 Bundle 'moll/vim-node'
 
 filetype plugin indent on " required by Vundle
@@ -51,10 +50,7 @@ filetype plugin indent on " required by Vundle
 
 " Enable syntax highlighting
 syntax on
-" syntax highlighting
-set background=dark     " you can use `dark` or `light` as your background
 " syntax on
-color mango
 " Sets the colorscheme for terminal sessions too.
 colorscheme badwolf
 " Override colorscheme bg so they look properly under any decent terminal -
@@ -142,7 +138,7 @@ let mapleader = ","
 set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
 " Gui
 set guioptions=
-set guifont=Monaco:h12
+set guifont=Menlo:h16
 " Tab mappings.
 nnoremap <leader>t :tabnew<cr>
 nnoremap <leader>e :tabedit
